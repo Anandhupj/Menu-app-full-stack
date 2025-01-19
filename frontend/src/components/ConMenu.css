@@ -1,0 +1,88 @@
+/* Main Container */
+.menu-containerz {
+    background-color: black; /* Black Background */
+    color: white; /* White Text */
+    padding: 20px;
+    border-radius: 12px; /* Rounded Borders */
+    border: 1px solid white; 
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    background-image: url("https://img.freepik.com/photos-gratuite/cahier-gateaux-savoureux-mous-coupes-oranges-biscuits-planche-decouper-bois-serviette_140725-86957.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  background-size: cover; /* Resize the background image to cover the */
+  }
+  
+  /* Menu Title */
+  .menu-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(235, 235, 241); /* Highlighted Title */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white; /* Separator */
+    padding-bottom: 5px;
+  }
+  
+  /* Menu Items Wrapper */
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Right-Aligned Items (Desktop) */
+  .menu-item-right {
+    text-align: left;
+    align-self: flex-end;
+  }
+  
+  /* Left-Aligned Items (Desktop) */
+  .menu-item-left {
+    text-align: right;
+    align-self: flex-start;
+  }
+  
+  /* Item Name */
+  .menu-items h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  /* Item Description */
+  .menu-items p {
+    font-size: 14px;
+    color: lightgray;
+    margin-bottom: 15px;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .menu-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .menu-title {
+      font-size: 20px;
+    }
+  
+    .menu-items h4 {
+      font-size: 16px;
+    }
+  
+    .menu-items p {
+      font-size: 13px;
+    }
+  
+    /* Center items on small screens */
+    .menu-item-right,
+    .menu-item-left {
+      text-align: left;
+      align-self: center;
+    }
+  }
+  

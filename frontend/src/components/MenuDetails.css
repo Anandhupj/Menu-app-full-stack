@@ -1,0 +1,144 @@
+/* Main Container */
+.menu-detail-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black; /* Dark Theme */
+    color: white;
+    border-radius: 12px;
+    border: 1px solid white; /* Thin White Border */
+    text-align: center;
+  }
+  
+  /* Menu Header */
+  .menu-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue; /* Highlighted Title */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .menu-header p {
+    font-size: 14px;
+    color: lightgray;
+    margin-bottom: 20px;
+  }
+  
+  /* Items List */
+  .menu-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Item Name */
+  .menu-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  /* Item Description */
+  .menu-item p {
+    font-size: 14px;
+    color: lightgray;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  .menu-item button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .edit-btn {
+    background-color: blue;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Edit Form */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .edit-form input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .save-btn {
+    background-color: green;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: gray;
+    color: white;
+  }
+  
+  /* Links */
+  .menu-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .menu-links a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .menu-detail-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .menu-header h2 {
+      font-size: 20px;
+    }
+  
+    .menu-item h4 {
+      font-size: 16px;
+    }
+  
+    .menu-item p {
+      font-size: 13px;
+    }
+  
+    .menu-item button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  
+    .edit-form input {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  
